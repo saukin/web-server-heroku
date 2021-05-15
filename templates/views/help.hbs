@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    {{>head}}
+</head>
+
+<body>
+
+    {{>header}}
+
+    <article>
+        <h1>Our team</h1>
+        <ul> Helper # 1
+            <li>{{ persons.0.name }}</li>
+            <li>{{ persons.0.age }}</li>
+        </ul>
+        <ul> Helper # 2
+            <li>{{ persons.1.name }}</li>
+            <li>{{ persons.1.age }}</li>
+        </ul>
+    </article>
+
+    {{>footer}}
+
+
+</body>
+
+</html>

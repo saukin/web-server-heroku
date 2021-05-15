@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+
+nav {
+    /* height: 10%; */
+}
+
+header {
+    /* height: 10%; */
+}
+
+article {
+    /* height: 70%; */
+    flex-grow: 1;
+}
+
+footer {
+    /* height:  10%; */
+}
+
+li {
+    color: red;
+}
+
+h1 {
+    color: green;
+}
+
+img {
+    height: 30vh;
+}
