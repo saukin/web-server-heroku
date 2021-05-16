@@ -16,6 +16,7 @@ const app = express();
 
 // Setup static dir to serve
 app.use(express.static(staticPublic));
+const port = process.env.PORT || 3000;
 
 // Setup handlebars and views 
 app.set('view engine', 'hbs');
@@ -96,6 +97,6 @@ app.get('*', (req, res) => {
 // app.com/help
 // app.com/about
 
-app.listen(3000, () => {
-    console.log("Express is up on port 3000")
+app.listen(port, () => {
+    console.log("Express is up on port " + port);
 })
